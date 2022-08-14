@@ -994,6 +994,23 @@
   }
 }
 
+.answer {
+  display: none;
+}
+.active .question {
+  margin-bottom: 0px;
+  border-bottom: 1px solid black;
+}
+.active .answer {
+  display: block;
+}
+.active .plus {
+  display: none;
+}
+.active .xmark {
+  display: block;
+}
+
 @media only screen and (min-width: 959px) and (max-width: 1024px) {
 }
 
